@@ -2,7 +2,7 @@ import React from 'react';
 
 const Experience = () => {
   return (
-    <section className="slide bg-beige" style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 'clamp(0.5rem, 2vw, 4rem)', padding: 'clamp(1rem, 5vw, 2rem)' }}>
+    <section className="slide bg-beige" style={{ flexDirection: 'row', flexWrap: 'wrap', alignContent: 'center', gap: 'clamp(0.5rem, 2vw, 4rem)', padding: 'clamp(1rem, 5vw, 2rem)' }}>
       <div style={{ flex: '1 1 300px', zIndex: 2, marginTop: 'clamp(0rem, 2vh, 2rem)' }}>
         <h2 style={{ fontSize: 'clamp(2.5rem, 8vw, 6rem)', lineHeight: '1', color: 'var(--color-black)', marginBottom: '0.5rem' }}>
           MY <br />
