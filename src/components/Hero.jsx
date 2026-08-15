@@ -21,7 +21,7 @@ const Hero = () => {
       <motion.div 
         className="floating-reverse"
         style={{ 
-          position: 'absolute', bottom: '15%', right: '5%', width: '90px', height: '90px', 
+          position: 'absolute', bottom: 'calc(15% + 2rem)', right: '5%', width: '90px', height: '90px', 
           background: 'var(--color-white)', border: '4px solid black', borderRadius: '50%', 
           zIndex: 1, boxShadow: '8px 8px 0 black',
           display: 'flex', justifyContent: 'center', alignItems: 'center', transform: 'rotate(10deg)'

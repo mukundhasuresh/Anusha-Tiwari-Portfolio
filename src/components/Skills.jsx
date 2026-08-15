@@ -32,7 +32,7 @@ const Skills = () => {
 
   return (
     <section className="slide bg-lime" style={{ padding: '0' }}>
-      <div style={{ position: 'absolute', top: '15%', zIndex: 1, width: '100%', textAlign: 'center' }}>
+      <div style={{ position: 'absolute', top: '10%', zIndex: 1, width: '100%', textAlign: 'center' }}>
         <h2 style={{ fontSize: 'clamp(3rem, 8vw, 6rem)', color: 'var(--color-black)' }}>SKILLS</h2>
       </div>
 
@@ -42,7 +42,7 @@ const Skills = () => {
         justifyContent: 'center',
         gap: 'clamp(1rem, 5vw, 4rem)', 
         zIndex: 2, 
-        marginTop: '6rem', 
+        marginTop: '3rem', 
         width: '100vw', 
         padding: '2rem'
       }}>
@@ -63,7 +63,7 @@ const Skills = () => {
           style={{
             width: '80vw',
             maxWidth: '350px',
-            height: '400px',
+            height: 'clamp(280px, 50vh, 400px)',
             padding: '2rem',
             display: 'flex',
             flexDirection: 'column',
