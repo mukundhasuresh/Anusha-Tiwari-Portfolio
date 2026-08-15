@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mukundhasuresh.github.io/Anusha-Tiwari-Portfolio/sitemap.xml
