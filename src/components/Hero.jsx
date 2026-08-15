@@ -10,7 +10,7 @@ const Hero = () => {
       <motion.div 
         className="floating"
         style={{ 
-          position: 'absolute', top: '10%', left: '10%', width: '100px', height: '100px', 
+          position: 'absolute', top: '10%', left: 'clamp(10px, 5%, 10%)', width: 'clamp(65px, 15vw, 100px)', height: 'clamp(65px, 15vw, 100px)', 
           background: 'var(--color-lime)', border: '4px solid black', borderRadius: '16px', 
           zIndex: 1, boxShadow: '8px 8px 0 black',
           display: 'flex', justifyContent: 'center', alignItems: 'center', transform: 'rotate(-5deg)'
@@ -21,7 +21,7 @@ const Hero = () => {
       <motion.div 
         className="floating-reverse"
         style={{ 
-          position: 'absolute', bottom: 'calc(15% + 2rem)', right: '5%', width: '90px', height: '90px', 
+          position: 'absolute', bottom: 'calc(15% + 2rem)', right: '5%', width: 'clamp(60px, 15vw, 90px)', height: 'clamp(60px, 15vw, 90px)', 
           background: 'var(--color-white)', border: '4px solid black', borderRadius: '50%', 
           zIndex: 1, boxShadow: '8px 8px 0 black',
           display: 'flex', justifyContent: 'center', alignItems: 'center', transform: 'rotate(10deg)'

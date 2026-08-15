@@ -2,18 +2,18 @@ import React from 'react';
 
 const Experience = () => {
   return (
-    <section className="slide bg-beige" style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 'clamp(1rem, 4vw, 4rem)', padding: 'clamp(1rem, 5vw, 2rem)' }}>
-      <div style={{ flex: '1 1 300px', zIndex: 2, marginTop: 'clamp(1rem, 5vh, 4rem)' }}>
-        <h2 style={{ fontSize: 'clamp(3rem, 8vw, 6rem)', lineHeight: '1', color: 'var(--color-black)', marginBottom: '1rem' }}>
+    <section className="slide bg-beige" style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 'clamp(0.5rem, 2vw, 4rem)', padding: 'clamp(1rem, 5vw, 2rem)' }}>
+      <div style={{ flex: '1 1 300px', zIndex: 2, marginTop: 'clamp(0rem, 2vh, 2rem)' }}>
+        <h2 style={{ fontSize: 'clamp(2.5rem, 8vw, 6rem)', lineHeight: '1', color: 'var(--color-black)', marginBottom: '0.5rem' }}>
           MY <br />
           <span className="highlight">EXPERIENCE</span>
         </h2>
-        <p style={{ fontSize: 'clamp(1rem, 2vw, 1.2rem)', fontWeight: '600', maxWidth: '400px' }}>
+        <p style={{ fontSize: 'clamp(0.9rem, 2vw, 1.2rem)', fontWeight: '600', maxWidth: '400px' }}>
           Real-world execution, stakeholder outreach, and project leadership.
         </p>
       </div>
 
-      <div style={{ flex: '1 1 400px', position: 'relative', zIndex: 2, marginTop: '0', paddingBottom: 'clamp(1rem, 5vh, 2rem)' }}>
+      <div style={{ flex: '1 1 400px', position: 'relative', zIndex: 2, marginTop: '0', paddingBottom: 'clamp(0rem, 2vh, 1rem)' }}>
         {/* Red Thumbtack */}
         <div style={{ 
           position: 'absolute', top: '-15px', right: 'clamp(10px, 5vw, 40px)', 
